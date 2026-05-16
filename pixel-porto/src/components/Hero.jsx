@@ -18,7 +18,7 @@ export default function Hero({ darkMode }) {
   }, []);
 
   return (
-    <section className="min-h-[70vh] flex flex-col justify-center items-center text-center space-y-8">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center space-y-8">
       <div className="relative inline-block">
         <h1 className="font-pixel text-4xl md:text-6xl leading-tight">
           PLAYER 1 <br/> <span className={darkMode ? 'text-purple-400' : 'text-blue-600'}>READY.</span>
