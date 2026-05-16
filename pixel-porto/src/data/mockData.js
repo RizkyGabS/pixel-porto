@@ -1,6 +1,7 @@
 import playerImage from "../assets/shigeo.jpg";
 import questImage2 from "../assets/questimage2.png";
 import questImage3 from "../assets/questimage3.png";
+import questImage4 from "../assets/questimage4.png";
 
 export const PLAYER_DATA = {
   name: "RIZGABS_DEV",
@@ -45,9 +46,10 @@ export const QUEST_LOG = [
   {
     id: 3,
     title: "JogBatik Landing Page",
+    image: questImage4,
     type: "Mini-Game",
     desc: "This project is one of the college assignments in the implementation of digital marketing knowledge on a landing page.",
     tech: ["HTML", "CSS"],
-    link: "#"
+    link: "https://rizkygabs.github.io/jogbatik.github.io/"
   }
 ];
